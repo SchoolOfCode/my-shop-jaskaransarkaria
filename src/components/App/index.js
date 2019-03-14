@@ -4,6 +4,7 @@ import Menu from "../Menu";
 import Order from "../Order";
 import Inventory from "../Inventory";
 import sampleData from "../../sample-data";
+import BuyNow from "../Inventory/buynow";
 
 import css from "./App.module.css";
 
@@ -79,6 +80,7 @@ class App extends Component {
               onLoadClick={this.loadSampleData}
               onSubmit={this.addNewItem}
             />
+            <BuyNow />
           </div>
         </div>
       </div>
